@@ -20,16 +20,6 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(length =100)
-    private String profileUrl;
-
-    @Column(length =100)
-    private String address;
-
-    @Column(length =50, unique = true)
-    @NotNull
-    private String nickname;
-
     @Column(length =50, unique = true)
     @NotNull
     private String email;
@@ -38,10 +28,6 @@ public class User {
     @NotNull
     private String password;
 
-    @Column
-    @ColumnDefault("USER")
-    @NotNull
-    private ERole role;
 
 
 }

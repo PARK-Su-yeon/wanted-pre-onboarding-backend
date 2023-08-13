@@ -1,18 +1,15 @@
 package com.example.wantedpreonboardingbackend.User.dto.requestDto;
 
+import jakarta.validation.constraints.*;
 import lombok.Data;
 
 @Data
 public class SignupDTO {
 
-    private String profileUrl;
-
-    private String address;
-
-    private String nickname;
-
+    @Pattern(regexp =  ".*@.*",message="@포함 해햐함")
     private String email;
-
+    @Size(min = 8,message="크기 8 넘어야함 ")
     private String password;
+
 
 }

@@ -5,13 +5,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+@RequestMapping("/api/v1")
 @RestController
 public class postController {
 
-    @GetMapping("/api/v1/ji/paradise")
-    public String paradise(){
+    @PostMapping("/post")
+    public String posting(){
         return "paradise";
     }
 }
