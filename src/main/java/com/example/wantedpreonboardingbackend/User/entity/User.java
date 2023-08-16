@@ -1,4 +1,4 @@
-package com.example.wantedpreonboardingbackend.User.model;
+package com.example.wantedpreonboardingbackend.User.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.antlr.v4.runtime.misc.NotNull;
-import org.hibernate.annotations.ColumnDefault;
 
 @Entity
 @Table(name = "users")

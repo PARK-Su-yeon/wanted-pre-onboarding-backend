@@ -4,7 +4,7 @@ package com.example.wantedpreonboardingbackend.User.service.impl;
 import com.example.wantedpreonboardingbackend.User.dto.requestDto.SignupDTO;
 import com.example.wantedpreonboardingbackend.User.dto.responseDto.UserDTO;
 import com.example.wantedpreonboardingbackend.User.exception.UserAlreadyPresentException;
-import com.example.wantedpreonboardingbackend.User.model.User;
+import com.example.wantedpreonboardingbackend.User.entity.User;
 import com.example.wantedpreonboardingbackend.User.repository.UserRepository;
 import com.example.wantedpreonboardingbackend.User.service.AuthService;
 import com.example.wantedpreonboardingbackend.User.transformer.UserTransformer;

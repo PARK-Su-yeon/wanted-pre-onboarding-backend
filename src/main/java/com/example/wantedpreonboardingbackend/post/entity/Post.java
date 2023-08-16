@@ -1,29 +1,25 @@
 package com.example.wantedpreonboardingbackend.post.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import com.example.wantedpreonboardingbackend.User.entity.User;
+import jakarta.persistence.*;
+import lombok.*;
 
 @Entity
 @Getter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 public class Post {
+
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    private Long id;
+    private Long postId;
 
-    @Column
     private String title;
+    private String content;
 
-    @Column
-    private String contents;
-
-//    @Columng
-//    private Long userId;
-
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 }

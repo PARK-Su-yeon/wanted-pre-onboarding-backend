@@ -1,7 +1,7 @@
 package com.example.wantedpreonboardingbackend.User.service.impl;
 
 
-import com.example.wantedpreonboardingbackend.User.model.User;
+import com.example.wantedpreonboardingbackend.User.entity.User;
 import com.example.wantedpreonboardingbackend.User.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

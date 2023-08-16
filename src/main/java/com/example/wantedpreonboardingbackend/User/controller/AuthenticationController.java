@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/users")
 @RestController
 @RequiredArgsConstructor
 public class AuthenticationController {

@@ -3,7 +3,7 @@ package com.example.wantedpreonboardingbackend.User.transformer;
 
 import com.example.wantedpreonboardingbackend.User.dto.requestDto.SignupDTO;
 import com.example.wantedpreonboardingbackend.User.dto.responseDto.UserDTO;
-import com.example.wantedpreonboardingbackend.User.model.User;
+import com.example.wantedpreonboardingbackend.User.entity.User;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class UserTransformer {
