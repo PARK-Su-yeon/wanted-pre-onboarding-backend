@@ -17,6 +17,8 @@
 ![image](https://github.com/PARK-Su-yeon/wanted-pre-onboarding-backend/assets/93627156/3a3cef15-51de-4e54-a03f-1a72aa8d23d3)
 
 <h2>구현한 API의 동작을 촬영한 데모 영상 링크</h2>
+https://www.youtube.com/watch?v=ilRRGCvnUrQ
+
 <h2>구현 방법 및 이유에 대한 간략한 설명</h2>
 springboot와 mysql를 사용해 프로젝트를 구성하였고 로그인단계에서 springsecurity가 사용되었고 jpa를 사용하여 구성했다.
 로그인 토큰은 통해 받은 유저의 정보와 포스트아이디로 찾은 유저가 같은지 확인하는 작업을 거쳤다.
